@@ -1,5 +1,5 @@
 # TypeScript Projects for learning
-## Author: Spencer Pepe (spencer.pepe@rothco.com)
+## Author: Spencer Pepe
 
 This is a basic TypeScript environment for learning.
 
