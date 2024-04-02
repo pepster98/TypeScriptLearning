@@ -16,9 +16,29 @@ console.log(`strings: ${strings}`);
 console.log(`stringsAlt: ${stringsAlt}`);
 let coord; // tuple: array with set number
 //  of elements
-coord = [0, 0];
+coord = [0, '0'];
 let mixedTypes; // mixed type tuple
-mixedTypes = [1, '2', true];
+mixedTypes = [...coord, true];
 console.log(mixedTypes);
+/**
+ * Exercise 3 - any, void, null and undefined
+ */
+let justLikeJS; // how to defeat the purpose of TS
+justLikeJS = 2; // usecase: prototyping?
+justLikeJS = 'two';
+// void type
+function printToTheConsole() {
+    console.log('some text');
+}
+let test; // makes sense for functions
+test = undefined; // not so much for variables
+let age = null;
+let personData = {
+    name: 'Tim',
+    age,
+};
+let personAge;
+personAge = personData.age;
+console.log(personAge);
 export {};
 //# sourceMappingURL=arrayAndTuple.js.map

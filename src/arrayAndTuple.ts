@@ -21,11 +21,37 @@ stringsAlt = strings;
 console.log(`strings: ${strings}`);
 console.log(`stringsAlt: ${stringsAlt}`);
 
-let coord: [number, number];                // tuple: array with set number
+let coord: [number, string];                // tuple: array with set number
                                             //  of elements
-coord = [0, 0];
+coord = [0, '0'];
 
 let mixedTypes: [number, string, boolean];  // mixed type tuple
-mixedTypes = [1, '2', true];
+mixedTypes = [...coord, true];
 
 console.log(mixedTypes);
+
+/**
+ * Exercise 3 - any, void, null and undefined
+ */
+
+let justLikeJS: any;                        // how to defeat the purpose of TS
+justLikeJS = 2;                             // usecase: prototyping?
+justLikeJS = 'two';
+
+// void type
+function printToTheConsole(): void {
+    console.log('some text');
+}
+
+let test: void;                             // makes sense for functions
+test = undefined;                           // not so much for variables
+
+let age = null;
+let personData = {
+    name: 'Tim',
+    age,
+}
+
+let personAge: number | null;
+personAge = personData.age;
+console.log(personAge);
