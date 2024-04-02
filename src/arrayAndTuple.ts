@@ -46,9 +46,9 @@ function printToTheConsole(): void {
 let test: void;                             // makes sense for functions
 test = undefined;                           // not so much for variables
 
-let age = null;
+let age = 25;
 let personData = {
-    name: 'Tim',
+    name: 'Spencer',
     age,
 }
 
