@@ -12,5 +12,11 @@ npm run build
 
 ### Run
 ```
-npm run test
+npm run <exersise name>
+```
+## Current Exercises
+
+```
+basicTypes
+arrayAndTuple
 ```

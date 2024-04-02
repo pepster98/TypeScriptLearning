@@ -21,6 +21,7 @@ heightInCM = +'188';                // heightInCM = 188
 
 console.log(`Height in CM: ${heightInCM}`);
 
+
 // String
 let hero: string = "Batman";        // hero = "Batman"
 hero = String(122);                 // hero = "122"
