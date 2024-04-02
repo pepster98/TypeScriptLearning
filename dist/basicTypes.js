@@ -9,10 +9,10 @@ hasSuperPowers = Boolean(0); // false
 hasSuperPowers = !!'anything'; // true
 console.log(`Has Super Powers: ${hasSuperPowers}`); // expect true
 // Number
-let heightInCM = 188;
-heightInCM = Number(true);
-heightInCM = Number('188');
-heightInCM = +'188';
+let heightInCM = 188; // heightInCM = 188
+heightInCM = Number(true); // heightInCM = 1
+heightInCM = Number('188'); // heightInCM = 188
+heightInCM = +'188'; // heightInCM = 188
 console.log(`Height in CM: ${heightInCM}`);
 // String
 let hero = "Batman"; // hero = "Batman"
