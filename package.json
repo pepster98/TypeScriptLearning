@@ -8,7 +8,7 @@
     "build": "tsc",
     "main": "node dist/index.js",
     "basicTypes": "node dist/basicTypes.js",
-    "arraAndTuple": "node dist/arrayAndTuple.js"
+    "arrayAndTuple": "node dist/arrayAndTuple.js"
   },
   "keywords": [],
   "author": "",
