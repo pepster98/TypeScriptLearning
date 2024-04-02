@@ -19,4 +19,5 @@ npm run <exersise name>
 ```
 basicTypes
 arrayAndTuple
+objectTypes
 ```
