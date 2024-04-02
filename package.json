@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "node dist/index.js"
+    "main": "node dist/index.js",
+    "basicTypes": "node dist/basicTypes.js"
   },
   "keywords": [],
   "author": "",
