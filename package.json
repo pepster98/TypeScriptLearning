@@ -9,7 +9,8 @@
     "main": "node dist/index.js",
     "basicTypes": "node dist/basicTypes.js",
     "arrayAndTuple": "node dist/arrayAndTuple.js",
-    "objectTypes": "node dist/objectTypes.js"
+    "objectTypes": "node dist/objectTypes.js",
+    "utilityTypes": "node dist/utilityTypes.js"
   },
   "keywords": [],
   "author": "",

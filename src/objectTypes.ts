@@ -1,3 +1,7 @@
+/**
+ * Exercise 4 - Object Types
+ * @author Spencer Pepe
+ */
 type Game = {                                       // type aliasing
     title: string;
     genres: string[];
@@ -11,7 +15,7 @@ let game: Game = {                                  // object
 }
 
 let gameTwo: Game = {
-    title: "Super Mario Sunshine",
+    title: "Earthbound",
     genres: ["platformer", "adventure"],
 }
 

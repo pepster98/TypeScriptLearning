@@ -4,7 +4,7 @@ let game = {
     price: 35,
 };
 let gameTwo = {
-    title: "Super Mario Sunshine",
+    title: "Earthbound",
     genres: ["platformer", "adventure"],
 };
 let games = [game, gameTwo];
